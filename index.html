@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Phân biệt Internet và Web</title>
+  <title>Phân biệt Website và Trang web</title>
   <!-- TODO: thêm CSS nội bộ hoặc liên kết css/style.css nếu đề yêu cầu -->
   <style>
-    /* Thêm một chút CSS cơ bản để trang dễ nhìn hơn theo gợi ý */
+    /* CSS cơ bản giúp bảng rõ ràng, dễ nhìn */
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
       line-height: 1.6;
       max-width: 800px;
       margin: 20px auto;
@@ -16,33 +16,64 @@
     }
     h1 {
       color: #2c3e50;
+      text-align: center;
     }
-    li {
-      margin-bottom: 8px;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #bdc3c7;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .example {
+      font-style: italic;
+      color: #555;
+      margin-top: 5px;
+      display: block;
     }
   </style>
 </head>
 <body>
   <!-- TODO 1: viết cấu trúc HTML chính -->
-  <h1>Phân biệt Internet và World Wide Web (Web)</h1>
+  <h1>Phân biệt Website và Trang web (Webpage)</h1>
 
   <!-- TODO 2: bổ sung nội dung, bảng, danh sách hoặc form theo đề -->
-  <p>
-    <strong>Internet</strong> là một hệ thống thông tin toàn cầu bao gồm các mạng máy tính được liên kết với nhau. Nó giống như một cơ sở hạ tầng giao thông khổng lồ (đường xá, cầu cống, dây cáp, vệ tinh) cho phép các thiết bị trên khắp thế giới kết nối và truyền tải dữ liệu qua lại với nhau.
-  </p>
-
-  <p>
-    <strong>World Wide Web (gọi tắt là Web)</strong> không phải là Internet, mà là một dịch vụ chạy trên nền tảng của Internet. Nếu Internet là hệ thống đường giao thông thì Web giống như các phương tiện (xe cộ) chạy trên con đường đó, giúp chúng ta truy cập vào các trang thông tin, hình ảnh, video thông qua các liên kết (hyperlinks).
-  </p>
-
-  <h3>3 khái niệm cơ bản liên quan đến Web:</h3>
-  <ul>
-    <li><strong>HTML (HyperText Markup Language):</strong> Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng nên cấu trúc thô của một trang web.</li>
-    <li><strong>HTTP/HTTPS (HyperText Transfer Protocol):</strong> Giao thức truyền tải siêu văn bản, quy định cách thức truyền tải dữ liệu giữa máy chủ (Server) và trình duyệt của bạn (Client).</li>
-    <li><strong>Web Browser (Trình duyệt Web):</strong> Phần mềm (như Chrome, Edge, Safari) giúp biên dịch mã HTML thành giao diện hình ảnh, văn bản trực quan để người dùng đọc được.</li>
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Khái niệm</th>
+        <th>Giải thích</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Website</strong></td>
+        <td>
+          Là một tập hợp gồm nhiều trang web (webpages) có liên quan đến nhau, được liên kết lại và chia sẻ chung một tên miền (domain name). 
+          <span class="example">Ví dụ: Website của một trường học (như trường THPT A) bao gồm toàn bộ các trang thông tin, trang tin tức, trang tuyển sinh... tập hợp lại dưới một địa chỉ duy nhất.</span>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Trang web (Webpage)</strong></td>
+        <td>
+          Là một trang đơn lẻ, một tệp tin HTML cụ thể thuộc một website. Mỗi trang web sẽ có một địa chỉ URL riêng biệt.
+          <span class="example">Ví dụ: Trang "Giới thiệu", trang "Liên hệ", hoặc trang chứa "Thời khóa biểu tuần này" của trường học đó được gọi là các trang web thành phần.</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <!-- TODO 3: thêm script nếu đề yêu cầu tương tác -->
-  <!-- Bài tập này chỉ yêu cầu hiển thị nội dung cơ bản, không cần JavaScript -->
+  <!-- Bài tập hiển thị bảng dữ liệu tĩnh, không cần JavaScript -->
 </body>
 </html>
