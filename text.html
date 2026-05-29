@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS nổi bật thành phần URL</title>
+  <title>Hướng dẫn đọc URL</title>
   <style>
     body { font-family: sans-serif; padding: 20px; }
     h1 { font-size: 20px; margin-bottom: 16px; }
-    p { font-family: monospace; font-size: 16px; }
-    .protocol { background: #B5D4F4; color: #0C447C; padding: 2px 6px; border-radius: 4px; }
-    .domain   { background: #9FE1CB; color: #085041; padding: 2px 6px; border-radius: 4px; }
-    .path     { background: #CECBF6; color: #3C3489; padding: 2px 6px; border-radius: 4px; }
+    ol { padding-left: 20px; }
+    li { margin-bottom: 10px; font-size: 15px; }
   </style>
 </head>
 <body>
-  <h1>Tô nổi bật thành phần URL</h1>
+  <h1>Hướng dẫn đọc URL</h1>
 
-  <p>
-    <span class="protocol">https:</span>//<span class="domain">example.com</span><span class="path">/products/list</span>?page=2#top
-  </p>
+  <ol>
+    <li>Xác định <strong>Protocol</strong>: phần trước <code>://</code>, ví dụ <code>https</code></li>
+    <li>Xác định <strong>Domain</strong>: tên miền sau <code>://</code>, ví dụ <code>example.com</code></li>
+    <li>Xác định <strong>Path</strong>: đường dẫn sau domain bắt đầu bằng <code>/</code>, ví dụ <code>/products/list</code></li>
+    <li>Xác định <strong>Query</strong>: tham số sau dấu <code>?</code>, ví dụ <code>page=2</code></li>
+    <li>Xác định <strong>Fragment</strong>: neo trang sau dấu <code>#</code>, ví dụ <code>top</code></li>
+  </ol>
 </body>
 </html>
