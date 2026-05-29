@@ -55,7 +55,7 @@
 * **Môi trường chạy thử nghiệm:** `http://127.0.0.1:5500/index.html` (Live Server)
 
 ### 🔗 Dự án 2: Website nhập môn Web căn bản (Mini-project 1)
-* **Xem trang web chạy thực tế trên internet:** [Bấm vào đây để xem sản phẩm GitHub Pages của em](https://votrong11.github.io/MyWeb/)
+* **Xem trang web chạy thực tế trên internet:** [Bấm vào đây để xem sản phẩm GitHub Pages của em](https://votrong11.github.io/MyWeb7/)
 
 ---
 
